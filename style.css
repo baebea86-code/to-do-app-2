@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('./assets/to-do-background.jpg') no-repeat center center fixed;
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background: green;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: greenyellow;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration:dotted line-through;
+  color: black;
+}
+
+.delete-btn {
+  background: purple;
+  color: black;
+  border: none;
+}
